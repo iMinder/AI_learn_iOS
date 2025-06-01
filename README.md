@@ -4,6 +4,8 @@
 ## iOS Hybrid H5离线优化
 网页加载过程
 webview初始化 -> 打开url -> DNS解析 -> html加载 -> css/js加载 -> js加载数据 -> dom渲染
+![Uploading image.png…]()
+
 优化思路
 1. 降低请求量：合并资源，减少 HTTP 请求数，minify / gzip 压缩，webP，lazyLoad。
 2. 加快请求速度：预解析DNS，减少域名数，并行加载，CDN 分发。
